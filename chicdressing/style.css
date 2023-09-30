@@ -1,0 +1,136 @@
+/*
+Theme Name:		 chicdressing
+Theme URI:		 http://childtheme-generator.com/
+Description:	 chicdressing is a child theme of Ashe, created by ChildTheme-Generator.com
+Author:			 Chic Dressing
+Author URI:		 http://childtheme-generator.com/
+Template:		 ashe
+Version:		 1.0.0
+Text Domain:	 chicdressing
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+@font-face {
+    font-family: 'kalam-bold-webfont';
+    src: url('font/kalam-bold-webfont.eot');
+    src: url('font/kalam-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/kalam-bold-webfont.woff2') format('woff2'),
+    url('font/kalam-bold-webfont.woff') format('woff'),
+    url('font/kalam-bold-webfont.ttf') format('truetype'),
+    url('font/kalam-bold-webfont.svg#svgwpf') format('svg');
+}
+
+@font-face {
+    font-family: 'rokkitt-variablefont_wght-webfont';
+    src: url('font/rokkitt-variablefont_wght-webfont.eot');
+    src: url('font/rokkitt-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/rokkitt-variablefont_wght-webfont.woff2') format('woff2'),
+    url('font/rokkitt-variablefont_wght-webfont.woff') format('woff'),
+    url('font/rokkitt-variablefont_wght-webfont.ttf') format('truetype'),
+    url('font/rokkitt-variablefont_wght-webfont.svg#svgwpf') format('svg');
+}
+
+@font-face {
+    font-family: 'opensans-variablefont_wdthwght-webfont';
+    src: url('font/opensans-variablefont_wdthwght-webfont.eot');
+    src: url('font/opensans-variablefont_wdthwght-webfont.eot?#iefix') format('embedded-opentype'),
+    url('font/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+    url('font/opensans-variablefont_wdthwght-webfont.woff') format('woff'),
+    url('font/opensans-variablefont_wdthwght-webfont.ttf') format('truetype'),
+    url('font/opensans-variablefont_wdthwght-webfont.svg#svgwpf') format('svg');
+}
+@font-face {
+    font-family: 'PlayfairDisplay-VariableFont_wght';
+    src: url('font/PlayfairDisplay-VariableFont_wght.eot');
+    src: url('font/PlayfairDisplay-VariableFont_wght.eot?#iefix') format('embedded-opentype'),
+    url('font/PlayfairDisplay-VariableFont_wght.woff2') format('woff2'),
+    url('font/PlayfairDisplay-VariableFont_wght.woff') format('woff'),
+    url('font/PlayfairDisplay-VariableFont_wght.ttf') format('truetype'),
+    url('font/PlayfairDisplay-VariableFont_wght.svg#svgwpf') format('svg');
+}
+
+.logo-img , 
+.chic-title,
+h1{
+        font-family: 'kalam-bold-webfont', Arial, sans-serif !important;
+        font-size: 70px;
+}
+
+ 
+p{
+        font-family: 'opensans-variablefont_wdthwght-webfont', Arial, sans-serif !important;
+}
+body .page-content, .page-content select, .page-content input, .page-content textarea, .page-content .post-author a, .page-content .ashe-widget a, .page-content .comment-author {
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+body .header-logo a{
+    color: white;
+    text-shadow: 2px 3px 5px #d0527a;
+    transform: rotate(-9deg);
+    font-family: 'kalam-bold-webfont', Arial, sans-serif !important;
+   
+}
+.text-center{
+    text-align:center;
+}
+
+.chic-bouton{
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 12px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#featured-slider{
+    margin-bottom:30px;
+}
+#chic-products{
+    padding:0 40px;
+}
+.chic-title{
+    font-family: 'Kalam';
+    font-size: 52px;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    transform: rotate(-2deg);
+    margin:30px 40px;
+    text-align:center;
+    color: #9d4c64 !important;
+    line-height: 48px;
+}
+#chic-products ul.products li.product{
+    background: #f6f6f6;
+    padding-bottom: 20px;
+}
+.post-content {
+    color: black;
+}
+body .page-content{
+    font-size: 18px;
+    color: black;
+}
+.rpwwt-post-categories{
+    color: black !important;
+}
+.post-date {
+    color: black !important;
+}
+h6{
+    font-size: 20px !important;
+}
+#wpadminbar * {
+    background-color: black!important;
+    color: #ffffff !important;
+}
